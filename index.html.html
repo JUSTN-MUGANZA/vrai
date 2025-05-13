@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | Ingénieur Informatique</title>
+    <link rel="stylesheet" href="Ok style principale.css">
+    <link rel="stylesheet" href="principal.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">MonPortfolio</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="active">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-btns">
+                <button id="logout-btn" class="btn btn-outline">Déconnexion</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home" class="active">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="mobile-logout-btn" class="btn btn-outline">Déconnexion</button></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Je suis <span class="highlight">LUBUNGA Justin</span>, Ingénieur informaticien</h1>
+                    <p>Spécialisé en développement web, logiciel, Design graphique, architecture système et solutions innovantes.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="WhatsApp Image 2025-03-20 at 08.29.50.jpeg" width="300px">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Je suis un ingénieur informaticien passionné avec plus de 3 années d'expérience dans le développement de solutions logicielles complexes. Mon expertise couvre divers domaines technologiques et je m'engage à fournir des solutions efficaces et innovantes.</p>
+                        <p>Diplômé de l'ISP/BUKAVU, j'ai travaillé sur des projets variés allant des applications web aux systèmes embarqués. Mon approche combine rigueur technique et créativité pour résoudre des problèmes complexes.</p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span class="info-label">Nom :</span>
+                                <span class="info-value">LUBUNGA Justin</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">+243971897692 :</span>
+                                <span class="info-value">justinmuganza0@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Expérience :</span>
+                                <span class="info-value">3 ans</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Spécialité :</span>
+                                <span class="info-value">Spécialiste en développement Web</span>
+                            </div>
+                        </div>
+                        <a href="MON TP MODELISATION.docx" class="btn btn-primary">Télécharger mon CV</a>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Mes compétences clés</h3>
+                        <div class="skills-chart">
+                            <div class="skill-item">
+                                <span class="skill-name">Développement Web</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%;"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Bases de données</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%;"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Cloud Computing</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%;"></div>
+                                </div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">DevOps</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%;"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Voici mes Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Développement Web</h3>
+                        <p>HTML5, CSS3, JavaScript, React, Angular, Vue.js, Node.js, Express</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Bases de données</h3>
+                        <p>MySQL, PostgreSQL, MongoDB, Redis, conception de schémas, optimisation</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Computing</h3>
+                        <p>AWS, Azure, Google Cloud, déploiement, scaling, architecture serverless</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>DevOps</h3>
+                        <p>Docker, Kubernetes, CI/CD, Terraform, monitoring, automatisation</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile</h3>
+                        <p>React Native, Flutter, développement d'applications hybrides</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>IA & Data Science</h3>
+                        <p>Python, TensorFlow, scikit-learn, traitement des données, modèles prédictifs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="cloud">Cloud</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Projet 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Plateforme E-commerce</h3>
+                            <p>Plateforme complète avec paiement en ligne, gestion de stock et recommandations personnalisées.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Projet 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Application de Fitness</h3>
+                            <p>Application mobile avec suivi d'activité, programmes personnalisés et intégration wearables.</p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="cloud">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Projet 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Architecture Cloud</h3>
+                            <p>Solution serverless pour le traitement de données en temps réel avec scaling automatique.</p>
+                            <div class="project-tech">
+                                <span>AWS Lambda</span>
+                                <span>API Gateway</span>
+                                <span>DynamoDB</span>
+                            </div>
+                            <a href="Projet 5.PNG" class="btn btn-outline">Voir détails</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Projet 4">
+                        </div>
+                        <div class="project-info">
+                            <h3>Dashboard Analytics</h3>
+                            <p>Tableau de bord interactif pour la visualisation de données complexes avec filtres avancés.</p>
+                            <div class="project-tech">
+                                <span>Angular</span>
+                                <span>D3.js</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Contactez-moi</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Disponible pour de nouvelles opportunités</h3>
+                        <p>Si vous avez un projet intéressant ou souhaitez discuter d'une collaboration, n'hésitez pas à me contacter.</p>
+                        <div class="info-items">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>justinmuganza09@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+243971897692</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bukavu/route d'Uvira, République Démocratique du Congo</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Sujet">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Justin Muganza</h3>
+                    <p>Ingénieur informaticien spécialiste dans le développement de solutions innovantes et performantes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> justinmuganza09@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +24397189692</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bukavu.Route d'Uvira,République Democratique du Congo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LUBUNGA Justin. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="principal.js"></script>
+</body>
+</html>
